@@ -24,6 +24,10 @@
   --danger: #e25858;
 }
 
+:focus {
+  outline: transparent;
+}
+
 body {
   background-color: var(--gray-600);
   color: var(--gray-100);
@@ -31,7 +35,7 @@ body {
 }
 
 body, input, textarea, button {
-  font-family: Inter, sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1rem;
 }
